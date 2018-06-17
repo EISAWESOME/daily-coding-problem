@@ -13,7 +13,7 @@ Follow-up: what if you can't use division?
 
 ### Solution
 
-[JS](pb1/answer.js)
+[JS](pb1/answer.js) (6:18, Bonus 2:34)
 
 
 ## 2
@@ -28,4 +28,4 @@ Bonus: Can you do this in one pass?
 
 ### Solution
 
-[JS](pb2/answer.js)
+[JS](pb2/answer.js) (3:34)
