@@ -7,8 +7,8 @@ const pb4 = (input) => {
   // Filter out negative elements
   const onlyPositives = input.filter( el => el > 0 );
   let i = 1;
-  // Give the loop some limit
-  while(i < 1000000000){
+  // Maximum possible value is the highest positive number + 1 
+  while(i <= Math.max(...onlyPositives) +1 ){
     if(!onlyPositives.includes(i))
       //Starts at 1, returns whenever an integer is missing
       return i;
