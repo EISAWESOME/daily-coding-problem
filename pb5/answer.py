@@ -8,14 +8,14 @@ def cons(a, b):
 def car(pair):
   # Returns first element of the pair
   def f(a, b):
-    print(a)
-  pair(f)
+    return a
+  return pair(f)
 
 def cdr(pair):
   # Returns last element of the pair
   def f(a, b):
-    print(b)
-  pair(f)
+    return b
+  return pair(f)
 
-car(cons(3, 4))
-cdr(cons(3, 4))
+print( car(cons(3, 4)) )
+print( cdr(cons(3, 4)) )
