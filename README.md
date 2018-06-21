@@ -1,6 +1,7 @@
 # Daily Coding Problem
 One problem a day.
 This repo will contains the answers.
+I'm timing only the first solve
 
 ## 1
 > This problem was asked by Uber
@@ -51,6 +52,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 ### Solution
 
 [JS](pb3/answer.js) (5:12)
+[Python](pb3/answer.py) (Not timed)
 
 
 ## 4
