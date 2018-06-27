@@ -103,7 +103,7 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 ---
 
-### 7 
+## 7 
 > This problem was asked by Facebook.
 
 Given the mapping `a = 1, b = 2, ... z = 26`, and an encoded message, count the number of ways it can be decoded.
@@ -111,13 +111,13 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
 
-## Solution
+### Solution
 
 [JS](pb7/answer.js) (Not timed, very long)
 
 ---
 
-### 8
+## 8
 > This problem was asked by Google.
 
 A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
@@ -134,13 +134,13 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
-## Solution
+### Solution
 
 [JS](pb8/answer.js) (Not timed)
 
 ---
 
-### 9 
+## 9 
 
 > This problem was asked by Airbnb.
 
@@ -148,21 +148,23 @@ Given a list of integers, write a function that returns the largest sum of non-a
 For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick 2, 6, and 5. `[5, 1, 1, 5]` should return `10`, since we pick 5 and 5.
 Follow-up: Can you do this in O(N) time and constant space?
 
+[JS](pb9/answer.js) (Cheated)
+
 ---
 
-### 10 
+## 10 
 > This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-## Solution
+### Solution
 [Python](pb10/answer.py) (1:17)
 
 [JS](pb10/answer.js) (Trivial)
 
 ---
 
-### 11
+## 11
 > This problem was asked by Twitter.
 
 Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
@@ -170,7 +172,7 @@ Implement an autocomplete system. That is, given a query string s and a set of a
 For example, given the query string `de` and the set of strings `[dog, deer, deal]`, return `[deer, deal]`.
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-## Solution
+### Solution
 [JS](pb11/answer.js) (1:28)
 
 [Python](pb11/answer.py)

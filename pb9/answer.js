@@ -2,17 +2,16 @@ const i1 = [2, 4, 6, 2, 5];
 const i2 = [5, 1, 1, 5];
 
 const nonAdjSum = (input) => {
-  const orig = [...input];
-  const nbMax = input.length % 2 ===0 ? Math.trunc(input.length / 2) : Math.trunc(input.length / 2) +1;
-  input.sort((a,b) => {
-    if(a>b)
-      return -1
-    return 1
+  let incl = 0;
+  let excl = 0;
+  input.forEach( (el) => {
+    let new_excl = excl > incl ? excl : incl;
+    incl = excl + el;
+    excl = new_excl;
   })
-  
-  console.log(nbMax)
-  console.log(orig)
-  console.log(input)
+
+  return excl > incl ? excl : incl;
+
 }
 
 console.log(nonAdjSum(i1));
