@@ -157,6 +157,7 @@ Implement a job scheduler which takes in a function f and an integer n, and call
 
 ## Solution
 [Python](pb10/answer.py) (1:17)
+
 [JS](pb10/answer.js) (Trivial)
 
 ---
@@ -171,4 +172,5 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to s
 
 ## Solution
 [JS](pb11/answer.js) (1:28)
+
 [Python](pb11/answer.py)
