@@ -3,6 +3,8 @@ One problem a day.
 This repo will contains the answers.
 I'm timing only the first solve
 
+---
+
 ## 1
 > This problem was asked by Uber
 
@@ -16,6 +18,7 @@ Follow-up: what if you can't use division?
 
 [JS](pb1/answer.js) (6:18, Bonus 2:34)
 
+---
 
 ## 2
 >This problem was recently asked by Google.
@@ -30,6 +33,7 @@ Bonus: Can you do this in one pass?
 
 [JS](pb2/answer.js) (3:34)
 
+---
 
 ## 3
 >This problem was recently asked by Google.
@@ -55,6 +59,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 [Python](pb3/answer.py) (Not timed)
 
+---
 
 ## 4
 >This problem was asked by Stripe.
@@ -66,6 +71,8 @@ You can modify the input array in-place.
 ### Solution
 
 [JS](pb4/answer.js) (3:47)
+
+---
 
 ## 5 
 > This problem was asked by Jane Street.
@@ -86,12 +93,15 @@ Implement car and cdr.
 
 [JS](pb5/answer.js) (Not timed)
 
+---
+
 ## 6
 > This problem was asked by Google.
 
 An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev` fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)` which returns the node at index.
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
+---
 
 ### 7 
 > This problem was asked by Facebook.
@@ -104,6 +114,8 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 ## Solution
 
 [JS](pb7/answer.js) (Not timed, very long)
+
+---
 
 ### 8
 > This problem was asked by Google.
@@ -125,3 +137,24 @@ For example, the following tree has 5 unival subtrees:
 ## Solution
 
 [JS](pb8/answer.js) (Not timed)
+
+---
+
+### 9 
+
+> This problem was asked by Airbnb.
+
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick 2, 6, and 5. `[5, 1, 1, 5]` should return `10`, since we pick 5 and 5.
+Follow-up: Can you do this in O(N) time and constant space?
+
+---
+
+### 10 
+> This problem was asked by Apple.
+
+Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+
+## Solution
+[Python](pb10/answer.py) (1:17)
+[JS](pb10/answer.js) (Trivial)
