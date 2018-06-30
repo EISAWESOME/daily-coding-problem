@@ -20,7 +20,7 @@ const kdistinct = (string, k) => {
     allSubString.push(currentSubString);
 
   }
-  console.log({ allSubString})
+  console.log({ allSubString });
   return longestSubstring;
 }
 
