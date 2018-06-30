@@ -10,8 +10,8 @@ from PIL import ImageDraw
 # Circle area = π * r²
 # Cirle-Square area ratio = π / 4
 # So if you pick K random points in the square,  K * π / 4 should be inside the circle
-# With L being the number of points inside the circle, whe have
-# π = 4M / K
+# With L being the number of points inside the circle, we have
+# π = 4L / K
 def approx_pi(nb_trials):
     inside_circle = 0
     img = Image.new('RGB', (500, 500), "white")
